@@ -1,4 +1,43 @@
-span{
-    height:100px ; width: 100px;
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+span.a{
+    display: none;
+    height:100px ; width: 1000px;
     background-color: gold;
+    border: red 2px solid;
+}
+span.b{
+    display: inline;
+    height:100px ; width: 1000px;
+    background-color: gold;
+    border: red 2px solid;
+}
+span.c{
+    display: inline-block;
+    height:100px ; width: 1000px;
+    background-color: gold;
+    border: red 2px solid;
+}
+span.d{
+    display: block;
+    height:100px ; width: 1000px;
+    background-color: gold;
+    border: red 2px solid;
+}
+p{
+    margin: 45px 150px 45px 80px;
+   /* border-style: solid;
+    border-width: 10px;
+    border-color: brown;*/
+    border: 10px dotted green;
+    border-radius: 20px;
+   /* padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;*/
+    padding: 12px 24px 12px 24px;
 }
